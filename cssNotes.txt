@@ -27,3 +27,5 @@ In the below example the padding is applied to the .card class when the viewport
     padding: 2rem;
   }
 }
+
+Set overflow to hidden - This property will hide any element that is pushed outside the set width value of .keys.
