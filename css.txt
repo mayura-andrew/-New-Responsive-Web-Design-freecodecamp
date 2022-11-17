@@ -9,3 +9,9 @@ When an element is manually positioned, you can shift its layout with top, left,
 The z-index property is used to create "layers" for your HTML elements. If you are familiar with image editing tools, you may have worked with layers before. This is a similar concept.
 
 Elements with a higher z-index value will appear to be layered on top of elements with a lower z-index value. This can be combined with the positioning in the previous lesson to create unique effects.
+
+you can set the box-sizing property to inherit, which will tell the targeted elements to use the same value as the parent element.
+
+You will also need to target the pseudo-elements, which are special keywords that follow a selector. The two pseudo-elements you will be using are the ::before and ::after pseudo-elements.
+
+The ::before selector creates a pseudo-element which is the first child of the selected element, while the ::after selector creates a pseudo-element which is the last child of the selected element. These pseudo-elements are often used to create cosmetic content, which you will see later in this project.
