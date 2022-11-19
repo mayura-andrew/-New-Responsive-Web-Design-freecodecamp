@@ -46,3 +46,9 @@ gradient2(
   colors
 );
 
+A media query can be used to change styles based on certain conditions, and they look like this:
+
+@media (condition) {
+
+}  
+
